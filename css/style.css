@@ -128,6 +128,7 @@ h1 {
 }
 .previousTimestamp {
   color: var(--paleBlue);
+  font: var(--slimFont);
 }
 
 /* mobile first */
@@ -192,6 +193,9 @@ h1 {
   }
   .timezones {
     flex-direction: column;
+  }
+  .previousTimestamp{
+    margin-top: 0.5rem;
   }
 }
 /* contentbox */
